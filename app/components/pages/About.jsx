@@ -32,7 +32,7 @@ const About = () => {
     >
       <Container variant="blocked">
         <section className="mb-[20px] sm:mt-[40px] mt-[70px]">
-          <h2 className="lg:text-[35px] md:text-[30px] text-[25px]">I'm a <span className="text-purple-100">Frontend Developer</span></h2>
+          <h2 className="lg:text-[35px] md:text-[30px] text-[25px]">Im a <span className="text-purple-100">Frontend Developer</span></h2>
           <p className="txt-md">
             With a passion for creating immersive and <span>user-friendly</span>{" "}
             web experiences.
