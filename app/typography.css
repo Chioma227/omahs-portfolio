@@ -1,0 +1,18 @@
+/* fontsizes */
+.txt-xl {
+  font-size: 35px;
+  font-weight: bolder;
+}
+.txt-sm {
+    font-size: 14px;
+    font-weight: 100;
+}
+.txt-md {
+    font-size: 16px;
+  font-weight: 100;
+}
+
+/* margins */
+.margin-lg {
+  margin-top: 8rem;
+}
