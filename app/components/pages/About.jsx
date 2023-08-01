@@ -32,14 +32,14 @@ const About = () => {
       variants={animateVariants}
     >
       <Container variant="blocked">
-        <section className="mb-[20px] sm:mt-[40px] mt-[70px]">
+        <section className="mb-[20px] sm:mt-[40px] mt-[70px] text-gray-400">
           <h2 className="lg:text-[35px] md:text-[30px] text-[25px]">Im a <span className="text-purple-100">Frontend Developer</span></h2>
           <p className="txt-md">
             With a passion for creating immersive and <span>user-friendly</span>{" "}
             web experiences.
           </p>
         </section>
-        <section className="txt-md mb-[20px] lg:w-[45rem] md:w-fit ">
+        <section className="txt-md mb-[20px] text-gray-400 lg:w-[45rem] md:w-fit ">
           <h3>
             A passionate and skilled frontend developer who has a deep
             understanding of modern web technologies and best practices, with a

@@ -8,7 +8,7 @@ import html from "../assets/icons/html.png";
 import git from "../assets/icons/Git-logo.png";
 import gitHub from "../assets/icons/github.png";
 import tailwind from "../assets/icons/tailwind.png";
-import javascript from "../assets/icons/Javascript.png";
+import javascript from "../assets/icons/JavaScript.png";
 import react from "../assets/icons/react.png";
 import next from "../assets/icons/nextjs.png";
 import scss from "../assets/icons/scss.png";
@@ -23,8 +23,8 @@ const Tools = () => {
   });
   return (
     <Container variant="normal" className="md:mt-[8rem] mt-[4.5rem]">
-      <div className=" text-white mb-7">
-        <h2 className="uppercase w-fit px-3 py-4 rounded-md border-l-4 border-l-[#a794bb]">
+      <div className="  mb-7">
+        <h2 className="uppercase text-gray-200 w-fit px-3 py-4 rounded-md border-l-4 border-l-[#a794bb]">
           my frontend tools
         </h2>
       </div>

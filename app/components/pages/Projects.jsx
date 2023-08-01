@@ -112,7 +112,7 @@ const Projects = () => {
 
   return (
     <section className="md:mt-[8rem] mt-[4.5rem]">
-      <h2 className="uppercase text-white txt-md mb-4  w-fit px-3 py-4 rounded-md border-l-4 border-l-[#a794bb]">
+      <h2 className="uppercase txt-md mb-4 text-gray-200 w-fit px-3 py-4 rounded-md border-l-4 border-l-[#a794bb]">
         projects
       </h2>
       <main className="relative mb-[3rem]">

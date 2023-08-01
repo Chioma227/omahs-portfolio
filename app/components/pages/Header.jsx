@@ -1,19 +1,14 @@
-import Icon from "../atoms/Icon";
+import logo from "../assets/img/logo (2).png";
 import Container from "../atoms/Container";
+import Image from "next/image";
 
 const Header = () => {
   return (
-    <main className="bg-bg-header py-[25px]">
+    <main className="bg-bg-header py-[20px]">
       <Container variant="wrapper">
         <Container variant="flexed">
           <div>
-            icon
-            {/* <Icon /> */}
-          </div>
-          <div className="flex gap-[5rem]">
-            <div>hello</div>
-            <div>hello</div>
-            <div>hello</div>
+            <Image src={logo} alt="logo" width={80} height={80} />
           </div>
         </Container>
       </Container>

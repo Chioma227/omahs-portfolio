@@ -35,8 +35,8 @@ const Hero = () => {
           <Image src={Img} alt="hero" width={500} height={500} />
         </div>
         <section className=" lg:w-[29rem] w-fit select-none">
-          <p>A frontend developer who</p>
-          <h2 className=" lg:text-[35px] md:text-[30px] text-[25px]">
+          <p className=" text-gray-400">A frontend developer who</p>
+          <h2 className=" lg:text-[35px] md:text-[30px] text-[25px] text-gray-200">
             Harnesses the web with the power of{" "}
             <span className=" text-purple-100">code</span>.
           </h2>
