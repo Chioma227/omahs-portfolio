@@ -8,7 +8,7 @@ const Header = () => {
         <Container variant="flexed">
           <div>
             icon
-            <Icon />
+            {/* <Icon /> */}
           </div>
           <div className="flex gap-[5rem]">
             <div>hello</div>

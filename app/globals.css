@@ -8,6 +8,19 @@
   font-family: "Comic sans ms";
 }
 
+.p-card{
+  backdrop-filter: blur(13px) saturate(180%);
+  -webkit-backdrop-filter: blur(13px) saturate(180%);
+  background-color: #7027ba4f;
+  border-radius: 12px;
+  /* border-left: 4px solid #9759d4; */
+}
+.gradient{
+  background: url('/components/assets/img/GradientOne.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 .bs {

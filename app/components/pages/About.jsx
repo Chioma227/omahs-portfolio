@@ -3,6 +3,7 @@ import Container from "../atoms/Container";
 import { motion } from "framer-motion";
 import { useAnimation } from "framer-motion";
 import { useEffect } from "react";
+import Link from "next/link";
 import { useInView } from "react-intersection-observer";
 
 const animateVariants = {
@@ -48,6 +49,9 @@ const About = () => {
             React, which enables me to build scalable and efficient web
             applications.
           </h3>
+          <Link href='/bout'>
+          read more
+          </Link>
         </section>
       </Container>
     </motion.main>

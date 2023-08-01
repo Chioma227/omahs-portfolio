@@ -75,8 +75,8 @@ const Experience = () => {
   }, [animation, inView]);
 
   return (
-    <div className=" relative-area margin-lg ">
-      <h1 className="text-white txt-md mb-4">WORK EXPERIENCE</h1>
+    <div className=" relative-area md:mt-[8rem] mt-[4.5rem]">
+      <h1 className="text-white txt-md mb-7 w-fit px-3 py-4 rounded-md border-l-4 border-l-[#a794bb]">WORK EXPERIENCE</h1>
       <main className=" sm:grid sm:grid-cols-2  sm:gap-[20px] block">
         {data.map((item) => {
           return (
@@ -98,7 +98,7 @@ const Experience = () => {
                   }
                 : "")}
               className={clsx(
-                `flex items-center gap-[15px] bs text-white sm:mb-0 mb-[15px] border-purple-100 border-t-2 rounded-lg shadow-sm px-[20px] py-[15px]`
+                `xs:flex block items-center gap-[15px] bs text-white sm:mb-0 mb-[15px] border-purple-100 border-t-2 rounded-lg shadow-sm px-[20px] py-[15px]`
               )}
             >
               <div>

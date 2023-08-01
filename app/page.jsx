@@ -1,16 +1,17 @@
 import React from "react";
-import Container from "./components/atoms/Container";
-import Root from "./components/templates/Root";
+import Container from "../app/components/atoms/Container";
+import Root from "../app/components/templates/Root";
+// import Hero from "../app/components/pages/Hero";
 
-const Page = () => {
+const Index = () => {
   return (
     <Container
       variant="normal"
-      className="bg-background-900 h-[100vh] w-[100vw] overflow-y-scroll"
+      className="bg-background-900 h-[100vh] w-[100vw] overflow-y-scroll overflow-x-hidden"
     >
-      <Root />
+    <Root/>
     </Container>
   );
 };
 
-export default Page;
+export default Index;

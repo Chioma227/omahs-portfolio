@@ -1,4 +1,5 @@
 import './globals.css'
+import './scrollbar.css'
 import "./typography.css"
 import { Inter } from 'next/font/google'
 

@@ -1,0 +1,27 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #693b93;
+  border-radius: 12px;
+}
+::-webkit-scrollbar-thumb {
+  backdrop-filter: blur(13px) saturate(180%);
+  -webkit-backdrop-filter: blur(13px) saturate(180%);
+  background: radial-gradient(
+    circle,
+    #130428,
+    #170b343d,
+    #1d0e41,
+    #24104e,
+    #2c115b,
+    #411e79,
+    #311260,
+    #331263,
+    #30125b,
+    #33205081,
+    #29114c,
+    #261045
+  );
+  border-radius: 20px;
+}

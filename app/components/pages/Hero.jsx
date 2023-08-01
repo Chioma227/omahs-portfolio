@@ -15,6 +15,7 @@ const Hero = () => {
       transition={{ type: "tween", duration: 1 }}
       className="relative "
     >
+  
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -24,7 +25,7 @@ const Hero = () => {
       >
         <div className="bg-center bg-cover">
           <Image src={arrow} alt="arrow" width={100} height={100} />
-        </div>
+        </div>          
         <p>
           Hello! I Am <span className="text-purple-100">Chioma Okeke</span>
         </p>
