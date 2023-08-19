@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect } from "react";
 import Image from "next/image";
-import imgOne from "../assets/img/chat.jpg";
+import imgOne from "../../assets/img/chat.jpg";
 import { animate, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useAnimation } from "framer-motion";

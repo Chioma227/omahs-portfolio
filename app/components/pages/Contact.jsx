@@ -1,18 +1,18 @@
 import React from "react";
-import MailIcon from "@mui/icons-material/Mail";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import PhoneIcon from "@mui/icons-material/Phone";
+// import CiMail from "react-icons/ci"
+// import CiTwitter from "react-icons/ci"
+// import CiLinkedin from "react-icons/ci"
+// import BsTelephone from "react-icons/bs"
 
 const Contact = () => {
   return (
     <>
       <section>
         <div>contct</div>
-        <MailIcon />
-        <TwitterIcon />
-        <LinkedInIcon />
-        <PhoneIcon />
+        {/* <CiMail />
+        <CiTwitter />
+        <CiLinkedin />
+        <BsTelephone /> */}
       </section>
     </>
   );

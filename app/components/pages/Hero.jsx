@@ -3,33 +3,20 @@ import Container from "../atoms/Container";
 import Image from "next/image";
 import Img from "../assets/icons/Me.svg";
 import arrow from "../assets/img/Arrow.png";
-import { motion } from "framer-motion";
 import Button from "../atoms/Button";
 import Link from "next/link";
 
 const Hero = () => {
   return (
-    <motion.main
-      initial={{ y: 35, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ type: "tween", duration: 1 }}
-      className="relative "
-    >
-  
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1, type: "tween" }}
-        n
-        className="flex items-center text-white absolute lg:top-[10px] md:top-[7px] top-[2px] lg:left-[15rem] md:left-[12rem] sm:left-[9rem] left-[6rem]"
-      >
+    <main className="relative ">
+      <div className="flex items-center text-white absolute lg:top-[10px] md:top-[7px] top-[2px] lg:left-[15rem] md:left-[12rem] sm:left-[9rem] left-[6rem]">
         <div className="bg-center bg-cover">
           <Image src={arrow} alt="arrow" width={100} height={100} />
-        </div>          
-        <p>
+        </div>
+        <p className=" text-gray-400">
           Hello! I Am <span className="text-purple-100">Chioma Okeke</span>
         </p>
-      </motion.div>
+      </div>
       <Container variant="flex-contain" className="mt-[7rem]">
         <div>
           <Image src={Img} alt="hero" width={500} height={500} />
@@ -47,7 +34,7 @@ const Hero = () => {
           </aside>
         </section>
       </Container>
-    </motion.main>
+    </main>
   );
 };
 
