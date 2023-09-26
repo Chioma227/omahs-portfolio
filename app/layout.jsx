@@ -1,7 +1,11 @@
 import './globals.css'
 import './scrollbar.css'
 import "./typography.css"
+import "@fortawesome/fontawesome-svg-core/styles.css"
+import {config} from   "@fortawesome/fontawesome-svg-core"
 import { Inter } from 'next/font/google'
+
+config.autoAddCss = false
 
 const inter = Inter({ subsets: ['latin'] })
 

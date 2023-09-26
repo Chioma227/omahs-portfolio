@@ -1,0 +1,14 @@
+cal github link - https://github.com/Chioma227/webCalc
+calc livelink - https://web-calc-qyuy.vercel.app/
+
+dictionary github - https://github.com/Chioma227/dictionary
+dictionary livelink - https://dictionary-pcn7w0vy6-chioma227.vercel.app/
+
+texttospeech livelink - https://text-to-speech-vert.vercel.app/
+github - https://github.com/Chioma227/text-to-speech
+
+moviedb livelink - https://stage-two-movie-db.vercel.app/
+github - https://github.com/Chioma227/moviedb
+
+gallery livelink - https://unsplash-gallery-kappa.vercel.app/
+github - https://github.com/Chioma227/Unsplash-gallery

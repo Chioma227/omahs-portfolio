@@ -31,8 +31,8 @@ module.exports = {
         Preahvihear: "Preahvihear",
       },
       screens:{
+        "xs":"470px",
         "s":"280px",
-        "xs":"470px"
       }
     },
   },

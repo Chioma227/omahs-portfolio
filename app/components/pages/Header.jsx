@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <main className="bg-bg-header py-[20px]">
+    <main className="bg-bg-header sm:py-[20px] py-[8px]">
       <Container variant="wrapper">
         <Container variant="flexed">
           <div>
